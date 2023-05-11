@@ -42,7 +42,7 @@ public class Factorial {
 				return input;
 			}
 			else {
-				this.printStream.print("Please Enter valid Input as number between 1 and 10 only, both inclusive.");
+				this.printStream.print("Please Enter valid Input as number between 1 and 10 only, both inclusive");
 				return -1;
 			}
 			
