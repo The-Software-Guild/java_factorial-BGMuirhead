@@ -11,10 +11,7 @@ public class Factorial {
 	 private PrintStream printStream;
 	 private int num;
 	 
-	 //test comment added
-	 // added another comment
-	 //another test
-	 
+	 //Testing submission
 
 	 public Factorial(InputStream inputStream, PrintStream printStream) {
 	      this.scanner = new Scanner(inputStream);
@@ -38,27 +35,7 @@ public class Factorial {
 		*/
 
 		//YOUR CODE STARTS HERE
-		try {
-			int input = this.scanner.nextInt();
-			if(input<=10 && input>=1)
-			{
-				return input;
-			}
-			else {
-				this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
-				return -1;
-			}
-			
-		}
-		catch(Exception ex)
-		{
-			this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
-			return-1;
-		}
 
-<<<<<<< HEAD
-		
-=======
 		try {
 			int input = this.scanner.nextInt();
 			if(input<=10 && input>=1)
@@ -76,7 +53,6 @@ public class Factorial {
 			this.printStream.print("Please Enter valid Input as number between 1 and 10 only, both inclusive");
 			return-1;
 		}
->>>>>>> branch 'main' of https://github.com/The-Software-Guild/java_factorial-BGMuirhead.git
 
 		//YOUR CODE ENDS HERE
 		 
@@ -94,12 +70,6 @@ public class Factorial {
 		 
 		int result = 1;
 		//YOUR CODE STARTS HERE
-		
-
-        for(int i=1;i<=num;i++ )
-        {
-            result*=i;
-        }
 
 		for(int i=1;i<=num;i++ )
 		{
