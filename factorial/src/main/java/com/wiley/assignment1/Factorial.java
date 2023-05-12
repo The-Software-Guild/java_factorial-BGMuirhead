@@ -12,6 +12,7 @@ public class Factorial {
 	 private int num;
 	 
 	 //test comment added
+	 // added another comment
 	 
 
 	 public Factorial(InputStream inputStream, PrintStream printStream) {
